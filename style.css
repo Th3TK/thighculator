@@ -1,0 +1,53 @@
+body{
+    background-color: #3c0071;
+}
+
+
+div#main{
+    background-color: #101010;
+    border-radius: 1vw;
+
+    height: 25vw;
+    width: 20vw;
+
+    margin: auto;
+    margin-top: 25vh;
+    padding: 2vh
+}
+
+div#input{
+    margin: auto;
+    margin-top: 10vh;
+
+    height: 15vw;
+    width: 15.5vw;
+}
+
+p#output{
+    background-color: white;
+    border-radius: 0.25vw;
+    font-family: Calibri;
+    font-size: 3vh;
+
+    height: 2vw;
+    width: 18vw;
+
+    margin: auto;
+    margin-top: 1vh;
+    padding-left: 1vh;
+
+}
+
+button{
+    background-color:#191919;
+    color: white;
+    font-size: 2vh;
+    border: none;
+
+    width: 5vw;
+    height: 5vw;
+}
+
+button:hover{
+    background-color:#272727;
+}

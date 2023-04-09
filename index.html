@@ -1,0 +1,37 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>The good stuff calculator</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+       <div id="main" >
+            <p id="output"></p>
+            <div id="input">
+                <button id="t" onclick="addT()">t</button>
+                <button id="h" onclick="addH()">h</button>
+                <button id="i" onclick="addI()">i</button>
+                <button id="g" onclick="addG()">g</button>
+                <button id="s" onclick="addS()">s</button>
+                <button id="a" onclick="addA()">a</button>
+                <button id="backspace" onclick="backspace()">go back</button>
+                <button id="clear" onclick="clean()">clin</button>
+                <button id="meow" onclick="meow()">meow</button>
+            </div>
+       </div>
+    </body>
+    <script>
+        output = document.getElementById("output");
+        
+        function addT(){output.innerHTML += "t";}
+        function addH(){output.innerHTML += "h";}
+        function addI(){output.innerHTML += "i";}
+        function addG(){output.innerHTML += "g";}
+        function addS(){output.innerHTML += "s";}
+        function addA(){output.innerHTML += "a";}
+
+        function backspace(){output.innerHTML = output.innerHTML.substring(0, output.innerHTML.length - 1);}
+        function clean(){output.innerHTML = "";}
+        function meow(){}
+    </script>
+</html>
